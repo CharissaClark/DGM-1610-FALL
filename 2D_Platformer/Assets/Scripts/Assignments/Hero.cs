@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Variables : MonoBehaviour
+public class Hero : MonoBehaviour
 {
-    string name = "Charissa";
-    int age  = 18;
-    float height = 5.3f;
-    bool married = false; 
+    string name = "Peter Parker";
+    int age  = 21;
+    float height = 5.8f;
+    bool powers = true; 
 
 
 
@@ -18,7 +18,7 @@ public class Variables : MonoBehaviour
         Debug.Log("First Name: " + name);
         Debug.Log("Age: " + age);
         Debug.Log("Height: " + height);
-        Debug.Log("Married: " + married);
+        Debug.Log("Powers: " + powers);
     }
 
     
